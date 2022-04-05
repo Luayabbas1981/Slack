@@ -393,6 +393,11 @@ header {
     transform: rotateY(360deg);
   }
 }
+@keyframes flip1 {
+  to {
+    transform: rotate(-360);
+  }
+}
 
 .projekt2 {
   display: flex;
@@ -510,7 +515,7 @@ header {
   border-radius: 1rem;
   position: fixed;
   bottom: 0;
-  color: rgba(127, 125, 125, 0.7);
+  
 }
 .chat1 {
   display: flex;
@@ -522,10 +527,12 @@ header {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   background-color: rgba(127, 125, 125, 0.3);
+  color: rgba(127, 125, 125, 0.7);
 }
 .chat2 {
   text-align: start;
   padding-top: 15px;
+  color: rgba(127, 125, 125, 0.7);
   
 }
 .chat3 {
@@ -533,6 +540,7 @@ header {
   padding-top: 10px;
   margin-left: 20px;
   column-gap: 2rem;
+  color: rgba(127, 125, 125, 0.7);
  
 }
 
