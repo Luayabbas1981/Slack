@@ -510,6 +510,7 @@ header {
   border-radius: 1rem;
   position: fixed;
   bottom: 0;
+  color: rgba(127, 125, 125, 0.7);
 }
 .chat1 {
   display: flex;
@@ -525,12 +526,14 @@ header {
 .chat2 {
   text-align: start;
   padding-top: 15px;
+  
 }
 .chat3 {
   display: flex;
   padding-top: 10px;
   margin-left: 20px;
   column-gap: 2rem;
+ 
 }
 
 .aside_three {
