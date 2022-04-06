@@ -369,7 +369,7 @@ header {
   height: 100px;
   transform-style: preserve-3d;
   transition: 2s;
-  animation: flip 6s linear infinite;
+  animation: flip 3s linear infinite;
   animation-fill-mode: forwards;
 }
 
@@ -402,11 +402,7 @@ header {
     transform: rotateY(360deg);
   }
 }
-@keyframes flip1 {
-  to {
-    transform: rotate(-360);
-  }
-}
+
 
 .projekt2 {
   display: flex;
@@ -425,6 +421,11 @@ header {
   background-color: rgb(42, 42, 196);
   overflow: hidden;
   border-radius: 0.3rem;
+}
+
+.card:hover {
+  transform: scale(2)rotate(90deg);
+  z-index: 6;
 }
 .card1 {
   width: 50px;
@@ -457,6 +458,10 @@ header {
   background-color: #607d8b;
   border-radius: 50%;
   overflow: hidden;
+}
+.card3:hover {
+  transform: scale(2);
+  z-index: 6;
 }
 .card4 {
   width: 50px;
