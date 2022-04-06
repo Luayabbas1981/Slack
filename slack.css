@@ -365,6 +365,9 @@ header {
 .face_box2 {
   position: relative;
   margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   transform-style: preserve-3d;
