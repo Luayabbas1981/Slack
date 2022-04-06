@@ -644,7 +644,7 @@ kbd {
   color: rgb(125, 4, 150);
   background-color: rgb(207, 204, 204);
   display: inline-block;
-  border: .6px solid black;
+  border: .6px solid rgb(245, 8, 8);
   font-size: 1.2rem;
   width: 18px;
   text-align: center;
