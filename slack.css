@@ -197,14 +197,11 @@ header {
   width: 30px;
   height: 30px;
   border-radius: 0.5rem;
-  
 }
 .per img:hover {
-  
   transform: scale(6) translateX(20px);
   cursor: pointer;
   z-index: 5;
- 
 }
 
 .activ {
@@ -364,8 +361,14 @@ header {
   align-items: center;
   perspective: 100px;
 }
-.face_box1,
-.face_box2 {
+.orange {
+  perspective: 220px;
+}
+.green {
+  perspective: 220px;
+}
+.face_box1
+ {
   position: relative;
   margin: 60px auto;
   display: flex;
@@ -376,6 +379,19 @@ header {
   transform-style: preserve-3d;
   transition: 2s;
   animation: flip 3s linear infinite;
+  animation-fill-mode: forwards;
+}
+.face_box2 {
+  position: relative;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transition: 2s;
+  animation: flip1 3s linear infinite;
   animation-fill-mode: forwards;
 }
 
@@ -406,6 +422,11 @@ header {
 @keyframes flip {
   to {
     transform: rotateY(360deg);
+  }
+}
+@keyframes flip1 {
+  to {
+    transform: rotateY(-360deg);
   }
 }
 
@@ -644,10 +665,9 @@ kbd {
   color: rgb(125, 4, 150);
   background-color: rgb(207, 204, 204);
   display: inline-block;
-  border: .6px solid rgb(245, 8, 8);
+  border: 0.6px solid rgb(245, 8, 8);
   font-size: 1.2rem;
   width: 18px;
   text-align: center;
-  border-radius: .3rem;
-  
+  border-radius: 0.3rem;
 }
